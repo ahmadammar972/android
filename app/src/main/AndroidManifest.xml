@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.polidea.rxandroidble2.sample">
+
+    <!-- Permissions the Application Requires -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.polidea.rxandroidble2.sample.SampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.polidea.rxandroidble2.sample.example1_scanning.ScanActivity"
+            android:exported="true"
+            android:label="@string/title_example1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".example1_scanning.ScanActivity$ScanReceiver" />
+
+        <activity
+            android:name="com.polidea.rxandroidble2.sample.example2_connection.ConnectionExampleActivity"
+            android:label="@string/title_example2" />
+
+        <activity
+            android:name="com.polidea.rxandroidble2.sample.example4_characteristic.CharacteristicOperationExampleActivity"
+            android:label="@string/title_example4" />
+        <activity
+            android:name=".example4_characteristic.advanced.AdvancedCharacteristicOperationExampleActivity"
+            android:label="@string/title_example4" />
+        <activity
+            android:name="com.polidea.rxandroidble2.sample.example4_characteristic.CharacteristicOperation3LeadsActivity"
+            android:label="@string/title_example4" />
+        <activity
+            android:name="com.polidea.rxandroidble2.sample.example4_characteristic.CharacteristicOperationExampleFullLeadsActivity"
+            android:label="@string/title_example4" />
+        <activity
+            android:name="com.polidea.rxandroidble2.sample.example4_characteristic.CharacteristicOperationExampleFullLeadsChestActivity"
+            android:label="@string/title_example4" />
+        <activity
+            android:name="com.polidea.rxandroidble2.sample.example4_characteristic.CharacteristicOperationOneLeadActivity"
+            android:label="@string/title_example4" />
+
+        <activity android:name="com.polidea.rxandroidble2.sample.DeviceActivity" />
+
+        <!-- Mqtt Service -->
+        <service android:name="org.eclipse.paho.android.service.MqttService"></service>
+    </application>
+</manifest>

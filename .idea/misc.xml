@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_device.xml" value="0.44907407407407407" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example1.xml" value="0.4" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example1a.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example2.xml" value="0.176" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example4.xml" value="0.536" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example4_production.xml" value="0.4739583333333333" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example4_production_fullleads.xml" value="0.4925925925925926" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example4_production_onelead.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/activity_example5.xml" value="0.3597222222222222" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/item2_discovery_characteristic.xml" value="0.4" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/item2_discovery_service.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/item_discovery_characteristic.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/100703599/AndroidStudioProjects/RxAndroidBle/app/src/main/res/layout/item_discovery_service.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
